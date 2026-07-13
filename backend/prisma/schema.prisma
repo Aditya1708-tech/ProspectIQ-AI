@@ -1,0 +1,309 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String         @id @default(uuid())
+  username     String         @unique
+  passwordHash String
+  name         String
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  
+  // Relations
+  roles        UserRole[]
+  refreshTokens RefreshToken[]
+  customers    Customer[]     @relation("UserCustomers")
+  interactions Interaction[]  @relation("UserInteractions")
+  tasks           RMTask[]         @relation("RMTasks")
+  comments        TaskComment[]
+  taskHistory     TaskHistory[]
+  taskAttachments TaskAttachment[]
+}
+
+model Role {
+  id        String     @id @default(uuid())
+  name      String     @unique
+  code      String     @unique
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  // Relations
+  users     UserRole[]
+}
+
+model UserRole {
+  userId String
+  roleId String
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role Role @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@id([userId, roleId])
+  @@index([userId])
+  @@index([roleId])
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([token])
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  actorId   String
+  actorRole String
+  action    String
+  targetId  String
+  timestamp DateTime @default(now())
+  details   String
+
+  @@index([actorId])
+  @@index([timestamp])
+}
+
+// Sprint 3 Customer domain models
+model Customer {
+  id                String            @id @default(uuid())
+  name              String
+  email             String?
+  phone             String?
+  occupation        String
+  incomeRange       String
+  riskCategory      String
+  segment           String
+  status            String            // ACTIVE, INACTIVE, DORMANT, PROSPECT, BLACKLISTED
+  rmId              String
+  assignedAt        DateTime          @default(now())
+  lastInteractionAt DateTime?
+  preferredContact  String?           // EMAIL, PHONE, SMS
+  preferredLanguage String?           // ENGLISH, HINDI
+  branchCode        String
+  deletedAt         DateTime?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  createdBy         String?
+  updatedBy         String?
+
+  // Relations
+  rm              User              @relation("UserCustomers", fields: [rmId], references: [id], onDelete: Cascade)
+  addresses       CustomerAddress[]
+  accounts        BankAccount[]
+  interactions    Interaction[]     @relation("CustomerInteractions")
+  documents       Document[]
+  productHoldings ProductHolding[]
+  tasks           RMTask[]          @relation("CustomerTasks")
+
+  @@index([rmId])
+  @@index([status])
+  @@index([segment])
+  @@index([deletedAt])
+}
+
+model CustomerAddress {
+  id         String   @id @default(uuid())
+  customerId String
+  type       String   // RESIDENTIAL, OFFICE
+  street     String
+  city       String
+  state      String
+  postalCode String
+  country    String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  customer Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  @@index([customerId])
+}
+
+model BankAccount {
+  id            String        @id @default(uuid())
+  customerId    String
+  accountNumber String        @unique
+  accountType   String        // SAVINGS, CURRENT
+  balance       Float
+  currency      String        @default("INR")
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  customer Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  transactions Transaction[]
+
+  @@index([customerId])
+}
+
+model Transaction {
+  id            String      @id @default(uuid())
+  bankAccountId String
+  amount        Float
+  type          String      // DEBIT, CREDIT
+  category      String      // UPI, GST, SALARY, UTILITY, Discretionary, Shopping
+  description   String
+  reference     String?
+  valueDate     DateTime
+  createdAt     DateTime    @default(now())
+
+  bankAccount BankAccount @relation(fields: [bankAccountId], references: [id], onDelete: Cascade)
+
+  @@index([bankAccountId])
+  @@index([category])
+  @@index([valueDate])
+}
+
+model Interaction {
+  id              String   @id @default(uuid())
+  customerId      String
+  rmId            String
+  type            String   // CALL, EMAIL, MEETING
+  summary         String
+  notes           String?
+  interactionDate DateTime
+  createdAt       DateTime @default(now())
+
+  customer Customer @relation("CustomerInteractions", fields: [customerId], references: [id], onDelete: Cascade)
+  rm       User     @relation("UserInteractions", fields: [rmId], references: [id], onDelete: Cascade)
+
+  @@index([customerId])
+  @@index([rmId])
+  @@index([interactionDate])
+}
+
+model Document {
+  id         String   @id @default(uuid())
+  customerId String
+  name       String
+  type       String   // PAN, GSTIN, Bank Statement
+  url        String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  customer Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  @@index([customerId])
+}
+
+model ProductHolding {
+  id         String   @id @default(uuid())
+  customerId String
+  name       String   // Savings Account, FIXED_DEPOSIT, etc.
+  status     String   // ACTIVE, CLOSED
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  customer Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  @@index([customerId])
+}
+
+model RMTask {
+  id                String           @id @default(uuid())
+  customerId        String
+  assignedRM        String
+  title             String
+  description       String?
+  priority          String           // HIGH, MEDIUM, LOW
+  status            String           // Pending, In Progress, Waiting Customer, Completed, Cancelled, Overdue
+  category          String           // Compliance, Relationship, Portfolio Review, Meeting, Digital Engagement, Documentation, KYC, Dormancy, Follow-up, General
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+  dueDate           DateTime
+  completedAt       DateTime?
+  estimatedDuration Int?             // in minutes
+  actualDuration    Int?             // in minutes
+  createdBy         String?
+  updatedBy         String?
+
+  // Relations
+  customer          Customer         @relation("CustomerTasks", fields: [customerId], references: [id], onDelete: Cascade)
+  rm                User             @relation("RMTasks", fields: [assignedRM], references: [id], onDelete: Cascade)
+  comments          TaskComment[]
+  reminders         TaskReminder[]
+  history           TaskHistory[]
+  attachments       TaskAttachment[]
+
+  @@index([customerId])
+  @@index([assignedRM])
+  @@index([status])
+  @@index([category])
+  @@index([dueDate])
+}
+
+model TaskComment {
+  id        String   @id @default(uuid())
+  taskId    String
+  comment   String
+  authorId  String
+  createdAt DateTime @default(now())
+
+  // Relations
+  task      RMTask   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  @@index([taskId])
+  @@index([authorId])
+}
+
+model TaskReminder {
+  id           String   @id @default(uuid())
+  taskId       String
+  reminderTime DateTime
+  message      String
+  isSent       Boolean  @default(false)
+  createdAt    DateTime @default(now())
+
+  // Relations
+  task         RMTask   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+
+  @@index([taskId])
+}
+
+model TaskHistory {
+  id          String   @id @default(uuid())
+  taskId      String
+  fieldName   String
+  oldValue    String?
+  newValue    String?
+  changedById String
+  createdAt   DateTime @default(now())
+
+  // Relations
+  task        RMTask   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  changedBy   User     @relation(fields: [changedById], references: [id], onDelete: Cascade)
+
+  @@index([taskId])
+  @@index([changedById])
+}
+
+model TaskAttachment {
+  id           String   @id @default(uuid())
+  taskId       String
+  fileName     String
+  fileType     String
+  fileSize     Int
+  fileUrl      String
+  uploadedById String
+  createdAt    DateTime @default(now())
+
+  // Relations
+  task         RMTask   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  uploadedBy   User     @relation(fields: [uploadedById], references: [id], onDelete: Cascade)
+
+  @@index([taskId])
+  @@index([uploadedById])
+}

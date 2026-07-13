@@ -1,0 +1,2558 @@
+[
+  {
+    "id": "p_rm_kumar",
+    "name": "Ramesh Kumar",
+    "rmId": "rm_priya",
+    "segment": "RETAIL",
+    "traditionalSummary": {
+      "averageBalance": 45000,
+      "existingLoansCount": 0,
+      "creditBureauScore": 720
+    },
+    "alternativeSummary": {
+      "upiOutflowAvg": 18000,
+      "epfoInflowAvg": 60000,
+      "utilityBillConsistency": 100
+    },
+    "rawTransactions": [
+      {
+        "date": "2026-01-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 60000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2664,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 12000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4977,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 4200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4850,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5119,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 60000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2793,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 12000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5056,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 4200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4796,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5472,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 60000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2719,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 12000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5449,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 4200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5113,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5057,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 60000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2586,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 12000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5077,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 4200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4650,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5142,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 60000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2980,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 12000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5057,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 4200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5033,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4627,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 60000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2544,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 12000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5071,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 4200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4984,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5366,
+        "type": "OUTFLOW"
+      }
+    ],
+    "engagementStatus": "UNCONTACTED"
+  },
+  {
+    "id": "p_sunita_sharma",
+    "name": "Sunita Sharma",
+    "rmId": "rm_priya",
+    "segment": "RETAIL",
+    "traditionalSummary": {
+      "averageBalance": 12000,
+      "existingLoansCount": 0
+    },
+    "alternativeSummary": {
+      "upiOutflowAvg": 12000,
+      "epfoInflowAvg": 35000,
+      "utilityBillConsistency": 95
+    },
+    "rawTransactions": [
+      {
+        "date": "2026-01-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 35000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2579,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 7000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3733,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 1225,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3609,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 525,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 2100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3489,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 35000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2668,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 7000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3195,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 1225,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3244,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 525,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 2100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3599,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 35000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2955,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 7000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3336,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 1225,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3665,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 525,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 2100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3219,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 35000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2944,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 7000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3264,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 1225,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3456,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 525,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 2100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3217,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 35000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2645,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 7000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3743,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 1225,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3495,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 525,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 2100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3483,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 35000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2848,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 7000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3674,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 1225,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3572,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 525,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 2100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3506,
+        "type": "OUTFLOW"
+      }
+    ],
+    "engagementStatus": "UNCONTACTED"
+  },
+  {
+    "id": "p_amit_patel",
+    "name": "Amit Patel",
+    "rmId": "rm_priya",
+    "segment": "MSME",
+    "traditionalSummary": {
+      "averageBalance": 180000,
+      "existingLoansCount": 1,
+      "creditBureauScore": 680
+    },
+    "alternativeSummary": {
+      "upiOutflowAvg": 85000,
+      "gstTurnoverAvg": 250000,
+      "utilityBillConsistency": 90
+    },
+    "rawTransactions": [
+      {
+        "date": "2026-01-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2550,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 150000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 50000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 15102,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 26250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 100000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17728,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 11250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 31250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17676,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2684,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 150000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 50000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 16667,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 26250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 100000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17383,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 11250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 31250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17020,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2887,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 150000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 50000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 18002,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 26250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 100000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 15445,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 11250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 31250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17693,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 150000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 50000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17100,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 26250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 100000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 16896,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 11250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 31250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17108,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 150000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 50000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 16841,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 26250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 100000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 16078,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 11250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 31250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17087,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2836,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 150000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 50000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17595,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 26250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 100000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 17282,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 11250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 31250,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 15390,
+        "type": "OUTFLOW"
+      }
+    ],
+    "engagementStatus": "UNCONTACTED"
+  },
+  {
+    "id": "p_priya_das",
+    "name": "Priya Das",
+    "rmId": "rm_priya",
+    "segment": "RETAIL",
+    "traditionalSummary": {
+      "averageBalance": 8000,
+      "existingLoansCount": 2,
+      "creditBureauScore": 610
+    },
+    "alternativeSummary": {
+      "upiOutflowAvg": 90000,
+      "epfoInflowAvg": 120000,
+      "utilityBillConsistency": 40
+    },
+    "rawTransactions": [
+      {
+        "date": "2026-01-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 120000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 24000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5950,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 54600,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5456,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 23400,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6081,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 120000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2669,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 24000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6364,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 54600,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5727,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 23400,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6191,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 120000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 24000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5527,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 54600,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5914,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 23400,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6266,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 120000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 24000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6228,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 54600,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6036,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 23400,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5996,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 120000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 24000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6054,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 54600,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6259,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 23400,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 6204,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 120000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2844,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 24000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5750,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 54600,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5805,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 23400,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 5812,
+        "type": "OUTFLOW"
+      }
+    ],
+    "engagementStatus": "UNCONTACTED"
+  },
+  {
+    "id": "p_anil_verma",
+    "name": "Anil Verma",
+    "rmId": "rm_anil",
+    "segment": "RETAIL",
+    "traditionalSummary": {
+      "averageBalance": 35000,
+      "existingLoansCount": 0,
+      "creditBureauScore": 750
+    },
+    "alternativeSummary": {
+      "upiOutflowAvg": 15000,
+      "epfoInflowAvg": 50000,
+      "utilityBillConsistency": 100
+    },
+    "rawTransactions": [
+      {
+        "date": "2026-01-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 50000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2976,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 10000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4503,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 2800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4397,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3943,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 50000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2839,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 10000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3918,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 2800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3830,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4064,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 50000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2941,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 10000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3773,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 2800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4066,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4296,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 50000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2588,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 10000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4264,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 2800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4147,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4578,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 50000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2585,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 10000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4471,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 2800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 3811,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4222,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-01",
+        "description": "EPFO SALARY CREDIT",
+        "category": "SALARY",
+        "amount": 50000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2862,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 10000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4466,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 2800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4158,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 1200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-25",
+        "description": "MUTUAL FUND SIP",
+        "category": "INVESTMENT",
+        "amount": 4500,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 4125,
+        "type": "OUTFLOW"
+      }
+    ],
+    "engagementStatus": "UNCONTACTED"
+  },
+  {
+    "id": "p_rajesh_gupta",
+    "name": "Rajesh Gupta",
+    "rmId": "rm_anil",
+    "segment": "MSME",
+    "traditionalSummary": {
+      "averageBalance": 15000,
+      "existingLoansCount": 2,
+      "creditBureauScore": 590
+    },
+    "alternativeSummary": {
+      "upiOutflowAvg": 70000,
+      "gstTurnoverAvg": 90000,
+      "utilityBillConsistency": 60
+    },
+    "rawTransactions": [
+      {
+        "date": "2026-01-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 54000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 18000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10656,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 25200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 36000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10252,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 10800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10115,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 54000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 18000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10491,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 25200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 36000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-02-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10473,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 10800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-02-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11294,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 54000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 18000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10249,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 25200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 36000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10605,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 10800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-03-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10811,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 54000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 18000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11452,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 25200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 36000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-04-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11251,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 10800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-04-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11131,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 54000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 18000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 10223,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 25200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 36000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-05-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 9464,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 10800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-05-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11474,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-04",
+        "description": "STATE ELECTRICITY BOARD",
+        "category": "UTILITIES",
+        "amount": 2905,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "GST BUSINESS INFLOW 1",
+        "category": "BUSINESS",
+        "amount": 54000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-05",
+        "description": "HOUSE/OFFICE RENT TRANSFER",
+        "category": "RENT",
+        "amount": 18000,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-08",
+        "description": "TELECOM MOBILE BILL",
+        "category": "UTILITIES",
+        "amount": 799,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-10",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11311,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-15",
+        "description": "MALL LUXURY SHOPPING",
+        "category": "SHOPPING",
+        "amount": 25200,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "GST BUSINESS INFLOW 2",
+        "category": "BUSINESS",
+        "amount": 36000,
+        "type": "INFLOW"
+      },
+      {
+        "date": "2026-06-20",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 9497,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-22",
+        "description": "MULTIPLEX ENTERTAINMENT",
+        "category": "ENTERTAINMENT",
+        "amount": 10800,
+        "type": "OUTFLOW"
+      },
+      {
+        "date": "2026-06-28",
+        "description": "UPI GROCERY STORE",
+        "category": "GROCERIES",
+        "amount": 11065,
+        "type": "OUTFLOW"
+      }
+    ],
+    "engagementStatus": "UNCONTACTED"
+  }
+]

@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+  
+  /* Centralized official IDBI Bank Brand Colors */
+  --idbi-green: #006A4E;
+  --idbi-dark-green: #00563F;
+  --idbi-light-green: #EAF6F2;
+  --idbi-orange: #F58220;
+  --idbi-dark-orange: #D96B12;
+  --idbi-bg: #F6F8FA;
+  --idbi-card: #FFFFFF;
+  --idbi-sidebar: #00563F;
+  --idbi-navbar: #006A4E;
+  --idbi-text: #111827;
+  --idbi-text-sec: #1F2937;
+  --idbi-muted: #374151;
+  --idbi-border: #E5E7EB;
+  --idbi-success: #2AA85A;
+  --idbi-warning: #F5A623;
+  --idbi-error: #D64545;
+  --idbi-info: #2F80ED;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--idbi-bg);
+  color: var(--idbi-text);
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 400;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Typography Headings Weight Rule */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600 !important;
+}
+
+/* Base custom focuses */
+*:focus-visible {
+  outline: 2px solid var(--idbi-green);
+  outline-offset: 2px;
+}
+
+/* Cards radius override to 12px */
+.rounded-3xl, 
+.rounded-2xl,
+.rounded-xl {
+  border-radius: 12px !important;
+}
+
+/* Clean enterprise cards - no glassmorphism or blur */
+.glass-panel {
+  background: var(--idbi-card) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid var(--idbi-border) !important;
+  box-shadow: 0 4px 12px rgba(0, 131, 108, 0.04) !important;
+}
+
+.glass-card {
+  background: var(--idbi-card) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid var(--idbi-border) !important;
+  box-shadow: 0 2px 8px rgba(0, 131, 108, 0.03) !important;
+}
+
+/* Global utility overrides for opacity borders */
+.border-white\/5, 
+.border-white\/10, 
+.border-white\/20,
+.border-slate-800,
+.border-slate-700,
+.border-gray-800,
+.border-gray-700 {
+  border-color: var(--idbi-border) !important;
+}
+
+/* Card and container background overrides for light enterprise theme */
+.bg-slate-900,
+.bg-slate-900\/30,
+.bg-slate-900\/40,
+.bg-slate-900\/50,
+.bg-slate-900\/60,
+.bg-slate-900\/80,
+.bg-slate-950,
+.bg-gray-900,
+.bg-gray-900\/30,
+.bg-gray-900\/40,
+.bg-zinc-900,
+.bg-neutral-900 {
+  background-color: var(--idbi-card) !important;
+}
+
+/* For lighter inner nested panels/containers */
+.bg-slate-950\/40,
+.bg-slate-950\/60,
+.bg-slate-950\/80,
+.bg-slate-950\/20,
+.bg-slate-900\/10,
+.bg-slate-900\/20,
+.bg-slate-950\/10,
+.bg-gray-950\/40,
+.bg-gray-950\/60,
+.bg-gray-900\/20,
+.bg-gray-900\/10,
+.bg-slate-950\/50,
+.bg-slate-950\/5 {
+  background-color: var(--idbi-bg) !important;
+}
+
+/* Gauge SVG override to make it work on light mode card bg */
+circle[stroke="rgba(255,255,255,0.03)"],
+circle[stroke="rgba(255,255,255,0.05)"],
+circle[stroke="rgba(255,255,255,0.08)"],
+circle[stroke="rgba(255,255,255,0.1)"],
+circle[stroke="rgba(255, 255, 255, 0.03)"],
+circle[stroke="rgba(255, 255, 255, 0.05)"] {
+  stroke: var(--idbi-border) !important;
+}
+
+/* Soft transition-all classes */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Premium Card hover effects */
+.hover-card-trigger {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+}
+.hover-card-trigger:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(0, 131, 108, 0.12);
+}
+
+/* Customized Enterprise Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--idbi-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--idbi-muted);
+}
+
+/* Background blob style matching IDBI colors */
+.bg-teal-500\/5, .bg-indigo-500\/5, .bg-teal-500\/10, .bg-indigo-500\/10 {
+  background-color: rgba(0, 131, 108, 0.02) !important;
+}
+.bg-amber-500\/5, .bg-amber-500\/10 {
+  background-color: rgba(245, 130, 32, 0.02) !important;
+}
+
+/* Active navigation gradients */
+.bg-gradient-nav {
+  background: linear-gradient(135deg, var(--idbi-green) 0%, var(--idbi-dark-green) 100%);
+}
+
+.text-teal-400 {
+  color: var(--idbi-green) !important;
+}
+
+.text-indigo-400 {
+  color: var(--idbi-green) !important;
+}
+
+.bg-indigo-600\/10 {
+  background-color: rgba(0, 131, 108, 0.08) !important;
+}
+
+.border-indigo-500\/20 {
+  border-color: rgba(0, 131, 108, 0.15) !important;
+}
+
+.text-slate-100 {
+  color: var(--idbi-text) !important;
+}
+
+.text-slate-200 {
+  color: var(--idbi-text) !important;
+}
+
+.text-slate-300 {
+  color: var(--idbi-text-sec) !important;
+}
+
+.text-slate-400 {
+  color: var(--idbi-muted) !important;
+}
+
+.text-white {
+  color: var(--idbi-text);
+}
+
+.bg-slate-900\/30 {
+  background-color: var(--idbi-card) !important;
+}
+
+/* Table overrides to ensure light mode headers remain readable */
+thead tr {
+  background-color: var(--idbi-light-green) !important;
+  color: var(--idbi-text-sec) !important;
+  border-bottom: 2px solid var(--idbi-border) !important;
+}
+
+/* Badges typography and spacing */
+.badge-idbi {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+}
+
+
+/* Sidebar and Navbar Text Contrast Overrides */
+aside, aside * {
+  color: #FFFFFF !important;
+}
+aside .text-emerald-100, aside .text-emerald-200 {
+  color: var(--idbi-light-green) !important;
+}
+aside button:hover, aside button:hover * {
+  color: #FFFFFF !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+aside button.bg-\[\#075B2D\] {
+  background-color: var(--idbi-dark-green) !important;
+}
+header, header * {
+  color: #FFFFFF !important;
+}
+header input {
+  color: var(--idbi-text) !important;
+}
+header input::placeholder {
+  color: var(--idbi-muted) !important;
+}
+header input:focus {
+  color: var(--idbi-text) !important;
+  background-color: #FFFFFF !important;
+}
+
+/* Quick access list buttons inside Login */
+.quick-access-btn {
+  color: var(--idbi-text) !important;
+}
+.quick-access-btn * {
+  color: inherit !important;
+}
+.quick-access-btn:hover {
+  background-color: var(--idbi-light-green) !important;
+}
+
+/* Centered Modal Overlay & Transition Animations */
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUpModal {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.animate-fade-in-overlay {
+  animation: fadeInOverlay 180ms ease-out forwards;
+}
+
+.animate-scale-up-modal {
+  animation: scaleUpModal 180ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Accessibility contrast overrides - ensure no light gray text on light background */
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-400,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-500,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-400,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-500,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-300,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-300,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-700,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-700,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-800,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-800,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-900,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-900,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-slate-950,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-gray-950,
+body *:not(aside):not(aside *):not(header):not(header *) > .text-\[\#6A737D\],
+body *:not(aside):not(aside *):not(header):not(header *) > .text-\[\#8D98A5\],
+body *:not(aside):not(aside *):not(header):not(header *) > .text-\[\#8d98a5\] {
+  color: #1F2937 !important;
+}
+
+:not(aside):not(aside *):not(header):not(header *).text-slate-400,
+:not(aside):not(aside *):not(header):not(header *).text-slate-500,
+:not(aside):not(aside *):not(header):not(header *).text-gray-400,
+:not(aside):not(aside *):not(header):not(header *).text-gray-500,
+:not(aside):not(aside *):not(header):not(header *).text-slate-300,
+:not(aside):not(aside *):not(header):not(header *).text-gray-300,
+:not(aside):not(aside *):not(header):not(header *).text-slate-700,
+:not(aside):not(aside *):not(header):not(header *).text-gray-700,
+:not(aside):not(aside *):not(header):not(header *).text-slate-800,
+:not(aside):not(aside *):not(header):not(header *).text-gray-800,
+:not(aside):not(aside *):not(header):not(header *).text-slate-900,
+:not(aside):not(aside *):not(header):not(header *).text-gray-900,
+:not(aside):not(aside *):not(header):not(header *).text-slate-950,
+:not(aside):not(aside *):not(header):not(header *).text-gray-950,
+:not(aside):not(aside *):not(header):not(header *).text-\[\#6A737D\],
+:not(aside):not(aside *):not(header):not(header *).text-\[\#8D98A5\],
+:not(aside):not(aside *):not(header):not(header *).text-\[\#8d98a5\] {
+  color: #1F2937 !important;
+}

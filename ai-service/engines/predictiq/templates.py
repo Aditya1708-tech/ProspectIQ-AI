@@ -1,0 +1,3 @@
+"""
+ProspectIQ AI - PREDICTIQ Templates
+"""

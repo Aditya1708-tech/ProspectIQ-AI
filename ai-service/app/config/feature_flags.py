@@ -1,0 +1,9 @@
+"""
+ProspectIQ AI - Platform Feature Flags Configuration
+"""
+
+# Feature Toggles
+ENABLE_AI_EXPLAINABILITY = True
+ENABLE_SIMULATION_SCENARIOS = True
+ENABLE_COGNITIVE_INTELLIGENCE = True
+ENABLE_NOTIFICATION_ESCALATION = True
